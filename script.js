@@ -14,7 +14,7 @@ function sayHi(){
     let x = 10;
     var y = 20;
     const z = 30;
-    a = 40;
+    a = 50;
     console.log(x);
   console.log(y);
   console.log(z);
