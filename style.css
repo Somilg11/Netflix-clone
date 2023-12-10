@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    color: white;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url('netflixhomepageimg.jpg');
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+
+.nav{
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    padding: 20px;
+    height: 85px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 140px;
+    color: red;
+    font-size: 2.8rem;
+    font-weight: 1000;
+}
+
+.s-button{
+    padding-right: 155px;
+}
+
+.main{
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    height: 360px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.main h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#p1{
+    font-size: 25px;
+}
+
+#p2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.placeholder{
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select{
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    width: 100px;
+    padding: 7px;
+    border: 0.2px solid rgb(97, 97, 97);
+    border-radius: 3px;
+}
+
+button{
+    width: 70px;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border: 0.2px solid red;
+    /* border-style: none; */
+    border-radius: 3px;
+    font-weight: 900;
+}
+
+textarea{
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    margin: 2px;
+    /* background-color: white; */
+    font-size: large;
+    padding: 16px;
+    text-decoration: none;
+    border: 0.2px solid rgb(97, 97, 97);
+    border-radius: 5px 5px 5px 5px;
+    resize: none;
+
+}
+
+#btn1{
+    width: 77px;
+    padding: 6px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#btn2{
+    margin: 5px;
+    padding: 12px;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: x-large;
+}
+
+footer{
+    height: 400px;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+}
+
+select option{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 8px;
+}
+
+button:hover{
+    background-color: rgb(211, 0, 0);
+    color: white;
+    border: 0.2px solid rgb(211, 0, 0);
+}
