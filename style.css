@@ -1,21 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: black; */
+    background-color: black;
     color: white;
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+/* .page1{
     background-image: url('netflixhomepageimg.jpg');
     height: 100%;
     width: 100%;
     object-fit: cover;
     z-index: -1;
     position: fixed;
-}
+} */
 
 .nav{
     background-color: rgba(0,0,0,0.7);
@@ -122,8 +122,8 @@ textarea{
     font-size: x-large;
 }
 
-footer{
-    height: 400px;
+#pg1ft{
+    height: 210px;
     background-color: rgba(0,0,0,0.7);
     position: relative;
 }
@@ -140,3 +140,81 @@ button:hover{
     color: white;
     border: 0.2px solid rgb(211, 0, 0);
 }
+
+hr {  
+    height: 8px;  
+    background-color: rgb(32, 32, 32);  
+    border: none;  
+}  
+
+.box1 , .box2, .box3, .box4{
+    box-sizing: border-box;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.box1-text{
+    margin-left: 100px;
+    width: 50%;
+}
+.box1-text h1{
+    font-size: 55px;
+}
+.box1-text p{
+    font-size: 25px;
+}
+.box1-img{
+    /* height: 100px; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.box1-img img{
+    margin-left: 80px;
+    height: 400px;
+}
+.box2-img img{
+    margin-left: 100px;
+    height: 400px;
+}
+.box3-img img{
+    height: 400px;
+}
+
+.page3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px;
+}
+.page3 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.q1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:  rgb(45, 45, 45);
+    height: 45px;
+    width: 1130px;
+    padding: 20px;
+    font-size: 23px;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+
+.q1:hover{
+    background-color: rgb(81, 81, 81);
+    cursor: pointer;
+}
+
+.page3 p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+
