@@ -216,5 +216,39 @@ hr {
     font-size: 20px;
 }
 
+footer{
+    padding-left: 50px;
+    width: 80%;
+    height: 350px;
+}
+
+footer h3{
+    margin: 60px 0px 10px 105px;
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(177, 174, 174);
+    /* text-decoration: underline; */
+    font-weight: 100;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul li{
+    font-size: 14px;
+    color: rgb(177, 174, 174);
+    text-decoration: underline;
+}
+
 
 
